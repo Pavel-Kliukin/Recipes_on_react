@@ -1,0 +1,610 @@
+{
+  "recipes": [
+    {
+      "title": "Spaghetti with Meatballs",
+      "author": "John Doe",
+      "description": "Classic Italian pasta dish with homemade meatballs.",
+      "prep_time": "20 minutes",
+      "cook_time": "1 hour",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "ground beef",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "bread crumbs",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "egg",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "onion",
+          "quantity": "1"
+        },
+        {
+          "name": "tomato sauce",
+          "quantity": "1 can"
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "pepper",
+          "quantity": "to taste"
+        },
+        {
+          "name": "olive oil",
+          "quantity": "2 tablespoons"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Mix together ground beef, bread crumbs, egg, garlic, onion, salt, and pepper. Shape into meatballs.",
+        "Heat olive oil in a large skillet over medium-high heat. Add meatballs and cook until browned on all sides, about 5 minutes.",
+        "Transfer meatballs to a baking dish and bake in preheated oven for 25 minutes.",
+        "Meanwhile, cook spaghetti according to package directions. Drain and toss with tomato sauce.",
+        "Serve spaghetti with meatballs on top."
+      ]
+    },
+    {
+      "title": "Chicken Stir-Fry",
+      "author": "Jane Smith",
+      "description": "Quick and easy Asian-inspired dish with chicken and vegetables.",
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "broccoli",
+          "quantity": "1 head"
+        },
+        {
+          "name": "carrots",
+          "quantity": "2"
+        },
+        {
+          "name": "onion",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "soy sauce",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "honey",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "cornstarch",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "name": "water",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "2 tablespoons"
+        }
+      ],
+      "steps": [
+        "Slice chicken into thin strips.",
+        "Cut broccoli into small florets, slice carrots, and dice onion and garlic.",
+        "Heat vegetable oil in a large skillet over medium-high heat. Add chicken and cook until browned, about 5 minutes.",
+        "Add broccoli, carrots, and onion to the skillet. Cook for 5 minutes, stirring occasionally.",
+        "In a small bowl, whisk together soy sauce, honey, cornstarch, and water. Add sauce to the skillet and stir to coat the chicken and vegetables.",
+        "Cook for an additional 5 minutes, or until the sauce has thickened and the vegetables are tender.",
+        "Serve over rice or noodles."
+      ]
+    },
+    {
+      "title": "Classic Lasagna",
+      "author": "John Doe",
+      "description": "Traditional Italian lasagna with layers of pasta, meat sauce, and cheese.",
+      "prep_time": "30 minutes",
+      "cook_time": "1 hour",
+      "servings": 8,
+      "ingredients": [
+        {
+          "name": "lasagna noodles",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "ground beef",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "onion",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "crushed tomatoes",
+          "quantity": "28 ounces"
+        },
+        {
+          "name": "tomato paste",
+          "quantity": "6 ounces"
+        },
+        {
+          "name": "water",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "sugar",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "name": "dried basil",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "name": "salt",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "ricotta cheese",
+          "quantity": "15 ounces"
+        },
+        {
+          "name": "mozzarella cheese",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "parmesan cheese",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "egg",
+          "quantity": "1"
+        }
+      ],
+      "steps": [
+        "Cook lasagna noodles according to package directions. Drain and set aside.",
+        "Preheat oven to 375°F.",
+        "In a large skillet, brown ground beef over medium heat. Add onion and garlic and cook until softened.",
+        "Stir in crushed tomatoes, tomato paste, water, sugar, basil, and salt. Simmer for 20 minutes.",
+        "In a medium bowl, combine ricotta cheese, 1 1/2 cups of mozzarella cheese, parmesan cheese, and egg.",
+        "Spread a thin layer of meat sauce in the bottom of a 9x13 inch baking dish. Layer with lasagna noodles, cheese mixture, and meat sauce. Repeat layers, ending with meat sauce. Sprinkle remaining mozzarella cheese on top.",
+        "Bake for 25 minutes, or until cheese is melted and bubbly. Let stand for 10 minutes before serving."
+      ]
+    },
+    {
+      "title": "Creamy Tomato Soup",
+      "author": "Sarah Johnson",
+      "description": "A comforting and creamy tomato soup that's perfect for chilly days.",
+      "prep_time": "10 minutes",
+      "cook_time": "30 minutes",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "butter",
+          "quantity": "4 tablespoons"
+        },
+        {
+          "name": "onion",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "canned tomatoes",
+          "quantity": "28 ounces"
+        },
+        {
+          "name": "vegetable broth",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "sugar",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "name": "salt",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "heavy cream",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "basil leaves",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "steps": [
+        "Melt butter in a large saucepan over medium heat. Add onion and garlic and cook until softened.",
+        "Add canned tomatoes, vegetable broth, sugar, and salt. Bring to a boil and then reduce heat to low. Simmer for 20 minutes.",
+        "Using an immersion blender, puree the soup until smooth. (Alternatively, transfer the soup to a blender and puree until smooth. Be sure to vent the blender lid to prevent steam from building up.)",
+        "Stir in heavy cream and basil leaves. Heat until warm.",
+        "Serve hot with your favorite bread or crackers."
+      ]
+    },
+    {
+      "title": "Spaghetti Carbonara",
+      "author": "Marco Rossi",
+      "description": "A classic Italian pasta dish made with bacon, eggs, and cheese.",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "quantity": "12 ounces"
+        },
+        {
+          "name": "bacon",
+          "quantity": "6 slices"
+        },
+        {
+          "name": "garlic",
+          "quantity": "2 cloves"
+        },
+        {
+          "name": "eggs",
+          "quantity": "2"
+        },
+        {
+          "name": "Parmesan cheese",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "black pepper",
+          "quantity": "1/2 teaspoon"
+        }
+      ],
+      "steps": [
+        "Cook spaghetti according to package instructions. Drain and set aside.",
+        "Cook bacon in a large skillet over medium heat until crispy. Remove bacon and crumble it into small pieces. Reserve bacon fat in the skillet.",
+        "Add garlic to the skillet with the bacon fat and cook for 30 seconds.",
+        "In a bowl, beat the eggs and Parmesan cheese together. Add black pepper and stir to combine.",
+        "Add the cooked spaghetti and crumbled bacon to the skillet with the garlic. Toss to combine.",
+        "Remove the skillet from heat and add the egg and cheese mixture. Toss to combine, making sure the spaghetti is coated with the mixture.",
+        "Serve hot with extra Parmesan cheese and black pepper, if desired."
+      ]
+    },
+    {
+      "title": "Beef Stroganoff",
+      "author": "John Doe",
+      "description": "A classic Russian dish made with beef, mushrooms, and sour cream.",
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "beef tenderloin",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "mushrooms",
+          "quantity": "8 ounces"
+        },
+        {
+          "name": "onion",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "beef broth",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "sour cream",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "flour",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "butter",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "egg noodles",
+          "quantity": "12 ounces"
+        }
+      ],
+      "steps": [
+        "Slice beef into thin strips.",
+        "In a large skillet, melt butter over medium heat. Add onion and garlic and cook until softened.",
+        "Add mushrooms to the skillet and cook until tender.",
+        "Remove mushrooms from skillet and set aside.",
+        "Add beef to the skillet and cook until browned.",
+        "Sprinkle flour over beef and stir to combine.",
+        "Add beef broth to the skillet and stir until sauce thickens.",
+        "Add mushrooms back to the skillet and stir to combine.",
+        "Remove skillet from heat and stir in sour cream.",
+        "Cook egg noodles according to package instructions. Drain and serve with beef stroganoff."
+      ]
+    },
+    {
+      "title": "Butternut Squash Soup",
+      "author": "Emily Johnson",
+      "description": "A creamy and comforting soup made with roasted butternut squash and warming spices.",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour",
+      "servings": 6,
+      "ingredients": [
+        {
+          "name": "butternut squash",
+          "quantity": "1 large"
+        },
+        {
+          "name": "onion",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "vegetable broth",
+          "quantity": "4 cups"
+        },
+        {
+          "name": "heavy cream",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "butter",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "cinnamon",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "nutmeg",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 400 degrees F.",
+        "Cut butternut squash in half and remove seeds. Place on a baking sheet, cut side down.",
+        "Roast squash in the oven for 45-50 minutes, until tender.",
+        "While squash is roasting, chop onion and garlic.",
+        "In a large pot, melt butter over medium heat. Add onion and garlic and cook until softened.",
+        "Add roasted squash to the pot and stir to combine.",
+        "Add vegetable broth, cinnamon, nutmeg, salt, and pepper to the pot and stir to combine.",
+        "Bring soup to a simmer and cook for 10 minutes.",
+        "Use an immersion blender or transfer soup to a blender and blend until smooth.",
+        "Stir in heavy cream and cook for an additional 5 minutes.",
+        "Serve hot and enjoy!"
+      ]
+    },
+    {
+      "title": "Pesto Pasta",
+      "author": "Alex Brown",
+      "description": "A simple and delicious pasta dish with fresh pesto sauce.",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "linguine",
+          "quantity": "12 ounces"
+        },
+        {
+          "name": "basil leaves",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "garlic",
+          "quantity": "2 cloves"
+        },
+        {
+          "name": "pine nuts",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "parmesan cheese",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "olive oil",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        "Bring a large pot of salted water to a boil. Add linguine and cook according to package instructions until al dente.",
+        "While pasta is cooking, make the pesto sauce. In a food processor, combine basil, garlic, pine nuts, and parmesan cheese. Pulse until finely chopped.",
+        "With the food processor running, slowly pour in the olive oil until the mixture is smooth.",
+        "Season the pesto sauce with salt and pepper to taste.",
+        "Drain the cooked pasta and return it to the pot. Add the pesto sauce and toss to combine.",
+        "Serve hot and enjoy!"
+      ]
+    },
+    {
+      "title": "Vegetarian Chili",
+      "author": "Sarah Johnson",
+      "description": "A hearty and flavorful chili that's perfect for vegetarians or anyone looking to cut back on meat.",
+      "prep_time": "15 minutes",
+      "cook_time": "45 minutes",
+      "servings": 6,
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "onion",
+          "quantity": "1, chopped"
+        },
+        {
+          "name": "bell pepper",
+          "quantity": "1, chopped"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves, minced"
+        },
+        {
+          "name": "chili powder",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "cumin",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "name": "paprika",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "black beans",
+          "quantity": "1 can, drained and rinsed"
+        },
+        {
+          "name": "kidney beans",
+          "quantity": "1 can, drained and rinsed"
+        },
+        {
+          "name": "diced tomatoes",
+          "quantity": "1 can"
+        },
+        {
+          "name": "tomato sauce",
+          "quantity": "1 can"
+        },
+        {
+          "name": "corn",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large pot over medium heat. Add onion, bell pepper, and garlic. Cook until vegetables are tender, about 5 minutes.",
+        "Add chili powder, cumin, paprika, and red pepper flakes. Cook for 1 minute, stirring constantly.",
+        "Add black beans, kidney beans, diced tomatoes, tomato sauce, and corn. Stir to combine.",
+        "Bring mixture to a simmer and cook for 30 minutes, stirring occasionally.",
+        "Season with salt and pepper to taste.",
+        "Serve hot and enjoy!"
+      ]
+    },
+    {
+      "title": "Blueberry Oatmeal Muffins",
+      "author": "Emily Brown",
+      "description": "Moist and delicious blueberry oatmeal muffins that are perfect for a quick breakfast or snack.",
+      "prep_time": "15 minutes",
+      "cook_time": "25 minutes",
+      "servings": 12,
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "quantity": "1 1/2 cups"
+        },
+        {
+          "name": "quick oats",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "baking powder",
+          "quantity": "2 teaspoons"
+        },
+        {
+          "name": "baking soda",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "cinnamon",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "eggs",
+          "quantity": "2"
+        },
+        {
+          "name": "brown sugar",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "vanilla extract",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "buttermilk",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "blueberries",
+          "quantity": "1 cup"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 375°F. Line a muffin tin with paper liners.",
+        "In a large mixing bowl, whisk together flour, oats, baking powder, baking soda, salt, and cinnamon.",
+        "In a separate mixing bowl, whisk together eggs, brown sugar, vegetable oil, and vanilla extract. Add buttermilk and whisk until smooth.",
+        "Add wet ingredients to dry ingredients and stir until just combined.",
+        "Fold in blueberries.",
+        "Spoon batter into muffin cups, filling each about 2/3 full.",
+        "Bake for 20-25 minutes, until a toothpick inserted into the center of a muffin comes out clean.",
+        "Allow muffins to cool in the tin for 5 minutes before transferring them to a wire rack to cool completely.",
+        "Serve and enjoy!"
+      ]
+    }
+  ]
+}
