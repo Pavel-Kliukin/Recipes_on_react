@@ -3,8 +3,8 @@ import './Recipes.css';
 
 const Recipes = () => {
   return (
-    <div>
-      
+    <div className="Recipes">
+      <h1>Recipes page</h1>
     </div>
   );
 };

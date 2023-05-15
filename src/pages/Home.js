@@ -2,17 +2,10 @@ import React from 'react';
 import './Home.css';
 
 
-const Home = (props) => {
+const Home = () => {
   return (
-    <div className="mainBox">
-      <div className="animalsLink">
-        <div className='aLinkHeader'></div>
-        {props.animalslink}
-      </div>
-      <div className="birdsLink">
-        <div className='bLinkHeader'></div>
-        {props.birdslink}
-      </div>
+    <div className="Home">
+      <h1>Home page</h1>
     </div>
   );
 };

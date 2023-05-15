@@ -3,9 +3,9 @@ import './Add.css';
 
 const Add = () => {
   return (
-    <div>
-      
-    </div>
+    <div className="Add">
+      <h1>Add recipes page</h1>
+   </div>
   );
 };
 
