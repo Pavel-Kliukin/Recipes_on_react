@@ -21,7 +21,7 @@ const PixabayImage = (props) => {
         );
 
         if (response.data.hits.length > 0) {
-          setImageURL(response.data.hits[0].webformatURL);
+          setImageURL(response.data.hits[6].webformatURL);
         }
       } catch (error) {
         console.error('Error:', error);
@@ -32,9 +32,9 @@ const PixabayImage = (props) => {
   }, [dishName]);
 
   return (
-    <div>
+    <div className='imgBox'>
       {imageURL ? (
-        <img src={imageURL} alt={dishName} />
+        <img className='recipeImg' src={imageURL} alt={dishName} />
       ) : (
         <p>Loading image...</p>
       )}

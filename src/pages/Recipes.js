@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"; 
-import PixabayImage from '../components/PixabayImage';
+import RecipeCard from '../components/RecipeCard';
 import axios from "axios";
 import './Recipes.css';
 
@@ -26,10 +26,11 @@ const Recipes = () => {
   return (
     <div className="Recipes">
       <h1>Recipes page</h1>
-      <div>{data[1].title}</div>
-      <div>
-        <PixabayImage 
-        imgRequest = {data[1].title}/>
+      <div className="cards">
+        {data.map(recipe => <RecipeCard 
+          key = {recipe.description}
+          recipeData = {recipe}
+        />)}
       </div>
     </div>
   );
