@@ -12,7 +12,7 @@ const RecipeCard = (props) => {
       <PixabayImage 
         imgRequest = {recipe.title}
       />
-      <NavLink to={`/pages/Recipe/${recipe.id}`}>See more</NavLink>
+      <NavLink to={`/recipe/${recipe.id}`}>See more</NavLink>
     </div>
   );
 };

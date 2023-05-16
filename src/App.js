@@ -13,20 +13,20 @@ function App() {
     <BrowserRouter>
       <Header
         home={<NavLink to="/">Home</NavLink>}
-        recipes={<NavLink to="/pages/recipes">Recipes</NavLink>}
-        add={<NavLink to="/pages/add">Add new recipe</NavLink>}
+        recipes={<NavLink to="/recipes">Recipes</NavLink>}
+        add={<NavLink to="/add">Add new recipe</NavLink>}
       />
         <Routes>
           <Route path="/" element={
             <Home />
           } />
-          <Route path="/pages/recipes" element={
+          <Route path="/recipes" element={
             <Recipes />
           } />
-          <Route path="/pages/recipe" element={
+          <Route path="/recipe/:id" element={
             <Recipe />
           } />
-          <Route path="/pages/add" element={
+          <Route path="/add" element={
             <Add />
           } />
         </Routes>
