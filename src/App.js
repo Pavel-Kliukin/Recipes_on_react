@@ -3,6 +3,7 @@ import Header from './components/Header';
 
 import Home from './pages/Home';
 import Recipes from './pages/Recipes';
+import Recipe from './pages/Recipe';
 import Add from './pages/Add';
 
 import './App.css';
@@ -21,6 +22,9 @@ function App() {
           } />
           <Route path="/pages/recipes" element={
             <Recipes />
+          } />
+          <Route path="/pages/recipe" element={
+            <Recipe />
           } />
           <Route path="/pages/add" element={
             <Add />

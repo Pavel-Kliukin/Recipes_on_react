@@ -1,5 +1,6 @@
 import React from 'react';
 import './RecipeCard.css';
+import { NavLink } from 'react-router-dom';
 import PixabayImage from './PixabayImage';
 
 const RecipeCard = (props) => {
@@ -11,7 +12,7 @@ const RecipeCard = (props) => {
       <PixabayImage 
         imgRequest = {recipe.title}
       />
-      <div>See more</div>
+      <NavLink to={`/pages/Recipe/${recipe.id}`}>See more</NavLink>
     </div>
   );
 };

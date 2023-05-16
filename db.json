@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 1,
       "title": "Spaghetti with Meatballs",
       "author": "John Doe",
       "description": "Classic Italian pasta dish with homemade meatballs.",
@@ -59,6 +60,7 @@
       ]
     },
     {
+      "id": 2,
       "title": "Chicken Stir-Fry",
       "author": "Jane Smith",
       "description": "Quick and easy Asian-inspired dish with chicken and vegetables.",
@@ -118,6 +120,7 @@
       ]
     },
     {
+      "id": 3,
       "title": "Classic Lasagna",
       "author": "John Doe",
       "description": "Traditional Italian lasagna with layers of pasta, meat sauce, and cheese.",
@@ -193,6 +196,7 @@
       ]
     },
     {
+      "id": 4,
       "title": "Creamy Tomato Soup",
       "author": "Sarah Johnson",
       "description": "A comforting and creamy tomato soup that's perfect for chilly days.",
@@ -246,6 +250,7 @@
       ]
     },
     {
+      "id": 5,
       "title": "Spaghetti Carbonara",
       "author": "Marco Rossi",
       "description": "A classic Italian pasta dish made with bacon, eggs, and cheese.",
@@ -289,6 +294,7 @@
       ]
     },
     {
+      "id": 6,
       "title": "Beef Stroganoff",
       "author": "John Doe",
       "description": "A classic Russian dish made with beef, mushrooms, and sour cream.",
@@ -347,6 +353,7 @@
       ]
     },
     {
+      "id": 7,
       "title": "Butternut Squash Soup",
       "author": "Emily Johnson",
       "description": "A creamy and comforting soup made with roasted butternut squash and warming spices.",
@@ -410,6 +417,7 @@
       ]
     },
     {
+      "id": 8,
       "title": "Pesto Pasta",
       "author": "Alex Brown",
       "description": "A simple and delicious pasta dish with fresh pesto sauce.",
@@ -460,6 +468,7 @@
       ]
     },
     {
+      "id": 9,
       "title": "Vegetarian Chili",
       "author": "Sarah Johnson",
       "description": "A hearty and flavorful chili that's perfect for vegetarians or anyone looking to cut back on meat.",
@@ -538,6 +547,7 @@
       ]
     },
     {
+      "id": 10,
       "title": "Blueberry Oatmeal Muffins",
       "author": "Emily Brown",
       "description": "Moist and delicious blueberry oatmeal muffins that are perfect for a quick breakfast or snack.",

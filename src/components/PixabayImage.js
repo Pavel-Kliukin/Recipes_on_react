@@ -21,7 +21,7 @@ const PixabayImage = (props) => {
         );
 
         if (response.data.hits.length > 0) {
-          setImageURL(response.data.hits[6].webformatURL);
+          setImageURL(response.data.hits[0].webformatURL);
         }
       } catch (error) {
         console.error('Error:', error);
@@ -36,7 +36,7 @@ const PixabayImage = (props) => {
       {imageURL ? (
         <img className='recipeImg' src={imageURL} alt={dishName} />
       ) : (
-        <p>Loading image...</p>
+        <p>No image...</p>
       )}
     </div>
   );
