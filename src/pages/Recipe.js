@@ -6,7 +6,7 @@ import './Recipe.css'
 
 const Recipe = () => {
 
-  const {id} = useParams();
+  const {id} = useParams(); // gets id from the url
   const [data, setData] = useState(false);
   const [isLoading, setIsLoading] = useState(true)
 

@@ -28,7 +28,7 @@ const Recipes = () => {
       <h1>Recipes page</h1>
       <div className="cards">
         {data.map(recipe => <RecipeCard 
-          key = {recipe.description}
+          key = {recipe.id}
           recipeData = {recipe}
         />)}
       </div>

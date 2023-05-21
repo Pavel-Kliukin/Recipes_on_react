@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import axios from "axios";
 import './Add.css';
 
 const Add = () => {
   const [formData, setFormData] = useState({
+    id: 0,
     dishName: '',
     author: '',
     country: 'Finland',
@@ -10,53 +12,51 @@ const Add = () => {
     prep_time: '',
     cook_time:'',
     servings: '',
-    // ingredients: [
-    //   {
-    //     name: '',
-    //     quantity: ''
-    //   }
-    // ],
-    steps: ''
-  });
-
-  const [ingredients, setIngredients] = useState(
-    [
+    ingredients: [
       {
         name: '',
         quantity: ''
       }
-    ]
-  );
+    ],
+    steps: ''
+  });
 
-  const changeHandler = (event) => {
-    const { name, value } = event.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value
-    }));
+  // This handler is for all fields of the form except ingredients
+  const fieldsHandler = (e) => {
+    const { name, value } = e.target;
+    setFormData({...formData, [name]: value})
   };
 
-  const ingredientsHandler = (event) => {
-    const { name, value } = event.target;
-    const ingredArray = [...ingredients]
-    ingredArray[event.target.id][name] = value;
-    setIngredients(ingredArray)
+  // This handler is for ingredients field
+  const ingredientsHandler = (e) => {
+    const { name, value } = e.target;
+    const ingredArray = [...formData.ingredients]
+    ingredArray[e.target.id][name] = value;
+    setFormData({...formData, ingredients: ingredArray})
   }
 
-  const addIngredHandler = (event) => {
-    event.preventDefault()
+  //This handler adds new field for a new ingredient
+  const addIngredHandler = (e) => {
+    e.preventDefault()
+
     const newIngred = {
       name: '',
       quantity: ''
     }
-    setIngredients([...ingredients, newIngred])
+
+    const newIngredArray = [...formData.ingredients, newIngred]
+    setFormData({...formData, ingredients: newIngredArray})
   }
 
-  const submitHandler = (event) => {
-    event.preventDefault();
-    console.log(formData);
-    console.log(ingredients);
-    // Reset the form after submission
+  const submitHandler = (e) => {
+    e.preventDefault();
+
+    //Adds recipe to the db.json file on json-server
+    axios.post("http://localhost:3001/recipes", {
+      ...formData
+      }).then((res) => console.log(res)).catch((error) => console.log(error));
+
+    // Reset the formData after submission
     setFormData({
       dishName: '',
       author: '',
@@ -86,7 +86,7 @@ const Add = () => {
             id="dishName"
             name="dishName"
             value={formData.dishName}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
             required
           />
         </div>
@@ -97,7 +97,7 @@ const Add = () => {
             id="author"
             name="author"
             value={formData.author}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
           />
         </div>
         <div className="country">
@@ -106,7 +106,7 @@ const Add = () => {
             id="country"
             name="country"
             value={formData.country}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
           >
             <option value="Finland">Finland</option>
             <option value="Russia">Russia</option>
@@ -119,7 +119,7 @@ const Add = () => {
             id="description"
             name="description"
             value={formData.description}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
           ></textarea>
         </div>
         <div className="prep-time">
@@ -129,7 +129,7 @@ const Add = () => {
             id="prep_time"
             name="prep_time"
             value={formData.prep_time}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
           />
         </div>
         <div className="cook-time">
@@ -139,7 +139,7 @@ const Add = () => {
             id="cook_time"
             name="cook_time"
             value={formData.cook_time}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
           />
         </div>
         <div className="servings">
@@ -149,10 +149,10 @@ const Add = () => {
             id="servings"
             name="servings"
             value={formData.servings}
-            onChange={changeHandler}
+            onChange={fieldsHandler}
           />
         </div>
-        {ingredients.map((item, id) => {
+        {formData.ingredients.map((item, id) => {
           return (
             <div key={id} className="ingredients">
               <label htmlFor="ingredients">Ingredients</label>
@@ -160,14 +160,12 @@ const Add = () => {
                 type="text"
                 id={id}
                 name="name"
-                // value={formData.ingredients[0].name}
                 onChange={ingredientsHandler}
               />
               <input
                 type="text"
                 id={id}
                 name="quantity"
-                // value={formData.ingredients[0].quantity}
                 onChange={ingredientsHandler}
               />
             </div>
@@ -181,8 +179,8 @@ const Add = () => {
             id="steps"
             name="steps"
             value={formData.steps}
-            onChange={changeHandler}
-            required
+            onChange={fieldsHandler}
+            // required
           ></textarea>
         </div>
         <button type="submit">Submit</button>
