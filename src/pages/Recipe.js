@@ -34,7 +34,7 @@ const Recipe = () => {
 
   return <div className="recipePage">
     <h1>Recipe with ID {data.id}</h1>
-    <div>{data.title}</div>
+    <div>{data.dishName}</div>
   </div>
 }
 

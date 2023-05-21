@@ -8,9 +8,9 @@ const RecipeCard = (props) => {
 
   return (
     <div className='recipeCard'>
-      <div className='recipeName'>{recipe.title}</div>
+      <div className='recipeName'>{recipe.dishName}</div>
       <PixabayImage 
-        imgRequest = {recipe.title}
+        imgRequest = {recipe.dishName}
       />
       <NavLink to={`/recipe/${recipe.id}`}>See more</NavLink>
     </div>

@@ -2,260 +2,334 @@
   "recipes": [
     {
       "id": 1,
-      "title": "Spaghetti with Meatballs",
-      "author": "John Doe",
+      "dishName": "Meatballs with Mashed Potatoes",
+      "author": "Anna Virtanen",
       "country": "Finland",
-      "description": "Classic Italian pasta dish with homemade meatballs.",
+      "description": "A traditional Finnish dish consisting of juicy meatballs served with creamy mashed potatoes.",
       "prep_time": "20 minutes",
       "cook_time": "1 hour",
       "servings": 4,
       "ingredients": [
         {
-          "name": "spaghetti",
-          "quantity": "1 pound"
+          "name": "Potatoes",
+          "quantity": "1 kg"
         },
         {
-          "name": "ground beef",
-          "quantity": "1 pound"
+          "name": "Ground beef",
+          "quantity": "500 grams"
         },
         {
-          "name": "bread crumbs",
-          "quantity": "1 cup"
+          "name": "Bread crumbs",
+          "quantity": "100 grams"
         },
         {
-          "name": "egg",
+          "name": "Egg",
           "quantity": "1"
         },
         {
-          "name": "garlic",
+          "name": "Garlic",
           "quantity": "3 cloves"
         },
         {
-          "name": "onion",
+          "name": "Onion",
           "quantity": "1"
         },
         {
-          "name": "tomato sauce",
-          "quantity": "1 can"
+          "name": "Milk",
+          "quantity": "100 ml"
         },
         {
-          "name": "salt",
+          "name": "Butter",
+          "quantity": "50 grams"
+        },
+        {
+          "name": "Lingonberry jam",
+          "quantity": "for serving"
+        },
+        {
+          "name": "Salt",
           "quantity": "to taste"
         },
         {
-          "name": "pepper",
+          "name": "Pepper",
           "quantity": "to taste"
         },
         {
-          "name": "olive oil",
+          "name": "Olive oil",
           "quantity": "2 tablespoons"
         }
       ],
       "steps": [
-        "Preheat oven to 375 degrees F (190 degrees C).",
-        "Mix together ground beef, bread crumbs, egg, garlic, onion, salt, and pepper. Shape into meatballs.",
-        "Heat olive oil in a large skillet over medium-high heat. Add meatballs and cook until browned on all sides, about 5 minutes.",
-        "Transfer meatballs to a baking dish and bake in preheated oven for 25 minutes.",
-        "Meanwhile, cook spaghetti according to package directions. Drain and toss with tomato sauce.",
-        "Serve spaghetti with meatballs on top."
+        "Peel and dice the potatoes. Place them in a large pot of salted water and bring to a boil. Cook until the potatoes are tender, then drain.",
+        "In a mixing bowl, combine the ground beef, bread crumbs, egg, minced garlic, finely chopped onion, salt, and pepper. Mix well until all the ingredients are evenly incorporated.",
+        "Shape the meat mixture into meatballs of your desired size.",
+        "Heat the olive oil in a large skillet over medium-high heat. Add the meatballs and cook until they are browned on all sides, approximately 5 minutes.",
+        "Remove the meatballs from the skillet and set them aside.",
+        "In the same skillet, melt the butter over medium heat. Add the cooked potatoes and mash them using a potato masher or fork.",
+        "Gradually add milk while mashing the potatoes, until you reach a creamy consistency. Season with salt and pepper to taste.",
+        "Return the meatballs to the skillet with the mashed potatoes and heat them together for a few minutes to combine the flavors.",
+        "Serve the meatballs and mashed potatoes hot, with lingonberry jam on the side."
       ]
     },
     {
       "id": 2,
-      "title": "Chicken Stir-Fry",
-      "author": "Jane Smith",
-      "country": "Russia",
-      "description": "Quick and easy Asian-inspired dish with chicken and vegetables.",
-      "prep_time": "15 minutes",
-      "cook_time": "15 minutes",
-      "servings": 4,
+      "dishName": "Moussaka",
+      "author": "Maria Papadopoulos",
+      "country": "Greece",
+      "description": "A classic Greek dish with layers of eggplant, meat, and béchamel sauce, baked to perfection.",
+      "prep_time": "30 minutes",
+      "cook_time": "1 hour 30 minutes",
+      "servings": 6,
       "ingredients": [
         {
-          "name": "chicken breast",
-          "quantity": "1 pound"
-        },
-        {
-          "name": "broccoli",
-          "quantity": "1 head"
-        },
-        {
-          "name": "carrots",
+          "name": "Eggplant",
           "quantity": "2"
         },
         {
-          "name": "onion",
+          "name": "Ground beef",
+          "quantity": "500 grams"
+        },
+        {
+          "name": "Onion",
           "quantity": "1"
         },
         {
-          "name": "garlic",
+          "name": "Garlic",
           "quantity": "3 cloves"
         },
         {
-          "name": "soy sauce",
-          "quantity": "1/4 cup"
+          "name": "Canned diced tomatoes",
+          "quantity": "400 grams"
         },
         {
-          "name": "honey",
-          "quantity": "2 tablespoons"
+          "name": "Red wine",
+          "quantity": "100 ml"
         },
         {
-          "name": "cornstarch",
-          "quantity": "1 tablespoon"
+          "name": "Olive oil",
+          "quantity": "4 tablespoons"
         },
         {
-          "name": "water",
-          "quantity": "1/4 cup"
+          "name": "Potatoes",
+          "quantity": "3"
         },
         {
-          "name": "vegetable oil",
-          "quantity": "2 tablespoons"
+          "name": "Milk",
+          "quantity": "500 ml"
+        },
+        {
+          "name": "Butter",
+          "quantity": "50 grams"
+        },
+        {
+          "name": "All-purpose flour",
+          "quantity": "50 grams"
+        },
+        {
+          "name": "Grated Parmesan cheese",
+          "quantity": "50 grams"
+        },
+        {
+          "name": "Eggs",
+          "quantity": "2"
+        },
+        {
+          "name": "Ground cinnamon",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "Nutmeg",
+          "quantity": "1/4 teaspoon"
+        },
+        {
+          "name": "Salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": "to taste"
         }
       ],
       "steps": [
-        "Slice chicken into thin strips.",
-        "Cut broccoli into small florets, slice carrots, and dice onion and garlic.",
-        "Heat vegetable oil in a large skillet over medium-high heat. Add chicken and cook until browned, about 5 minutes.",
-        "Add broccoli, carrots, and onion to the skillet. Cook for 5 minutes, stirring occasionally.",
-        "In a small bowl, whisk together soy sauce, honey, cornstarch, and water. Add sauce to the skillet and stir to coat the chicken and vegetables.",
-        "Cook for an additional 5 minutes, or until the sauce has thickened and the vegetables are tender.",
-        "Serve over rice or noodles."
+        "Preheat the oven to 180 degrees Celsius (350 degrees Fahrenheit).",
+        "Slice the eggplants into 1/4-inch thick rounds. Lightly salt them and let them sit for 15 minutes to remove excess moisture. Rinse and pat dry.",
+        "In a large skillet, heat 2 tablespoons of olive oil over medium heat. Add the sliced eggplants and cook until golden brown on both sides. Remove from the skillet and set aside.",
+        "In the same skillet, add 2 tablespoons of olive oil and sauté the chopped onion and minced garlic until softened.",
+        "Add the ground beef and cook until browned. Stir in the diced tomatoes, red wine, ground cinnamon, nutmeg, salt, and pepper. Simmer for 10 minutes, then remove from heat.",
+        "In a separate saucepan, melt the butter over medium heat. Stir in the flour and cook for 1-2 minutes. Gradually whisk in the milk until smooth. Cook until the sauce thickens, then remove from heat. Stir in the grated Parmesan cheese and beaten eggs.",
+        "Slice the potatoes into 1/4-inch thick rounds.",
+        "In a greased baking dish, arrange a layer of potatoes at the bottom. Top with a layer of cooked eggplant slices. Spread half of the meat sauce over the eggplant.",
+        "Add another layer of eggplant slices and top with the remaining meat sauce. Finally, pour the béchamel sauce evenly over the top layer.",
+        "Bake the Moussaka in the preheated oven for 45 minutes to 1 hour, or until the top is golden brown and bubbly.",
+        "Remove from the oven and let it cool for a few minutes before serving.",
+        "Moussaka is traditionally served warm as a main dish. It pairs well with a fresh Greek salad and crusty bread.",
+        "Enjoy the rich and flavorful taste of this classic Greek Moussaka!"
       ]
     },
     {
       "id": 3,
-      "title": "Classic Lasagna",
-      "author": "John Doe",
-      "country": "Estonia",
-      "description": "Traditional Italian lasagna with layers of pasta, meat sauce, and cheese.",
+      "dishName": "Borscht",
+      "author": "Olga Ivanova",
+      "country": "Russia",
+      "description": "A traditional Russian beet soup with rich flavors and vibrant colors.",
       "prep_time": "30 minutes",
-      "cook_time": "1 hour",
-      "servings": 8,
+      "cook_time": "1 hour 30 minutes",
+      "servings": 6,
       "ingredients": [
         {
-          "name": "lasagna noodles",
-          "quantity": "1 pound"
+          "name": "Beets",
+          "quantity": "3"
         },
         {
-          "name": "ground beef",
-          "quantity": "1 pound"
+          "name": "Cabbage",
+          "quantity": "1/2 head"
         },
         {
-          "name": "onion",
+          "name": "Potatoes",
+          "quantity": "2"
+        },
+        {
+          "name": "Carrots",
+          "quantity": "2"
+        },
+        {
+          "name": "Onion",
           "quantity": "1"
         },
         {
-          "name": "garlic",
+          "name": "Garlic",
           "quantity": "3 cloves"
         },
         {
-          "name": "crushed tomatoes",
-          "quantity": "28 ounces"
+          "name": "Tomato paste",
+          "quantity": "2 tablespoons"
         },
         {
-          "name": "tomato paste",
-          "quantity": "6 ounces"
+          "name": "Beef or vegetable broth",
+          "quantity": "4 cups"
         },
         {
-          "name": "water",
-          "quantity": "1/2 cup"
+          "name": "Bay leaves",
+          "quantity": "2"
         },
         {
-          "name": "sugar",
+          "name": "Fresh dill",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "Sour cream",
+          "quantity": "for serving"
+        },
+        {
+          "name": "Salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": "to taste"
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "White vinegar",
           "quantity": "1 tablespoon"
-        },
-        {
-          "name": "dried basil",
-          "quantity": "1 tablespoon"
-        },
-        {
-          "name": "salt",
-          "quantity": "1 teaspoon"
-        },
-        {
-          "name": "ricotta cheese",
-          "quantity": "15 ounces"
-        },
-        {
-          "name": "mozzarella cheese",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "parmesan cheese",
-          "quantity": "1/2 cup"
-        },
-        {
-          "name": "egg",
-          "quantity": "1"
         }
       ],
       "steps": [
-        "Cook lasagna noodles according to package directions. Drain and set aside.",
-        "Preheat oven to 375°F.",
-        "In a large skillet, brown ground beef over medium heat. Add onion and garlic and cook until softened.",
-        "Stir in crushed tomatoes, tomato paste, water, sugar, basil, and salt. Simmer for 20 minutes.",
-        "In a medium bowl, combine ricotta cheese, 1 1/2 cups of mozzarella cheese, parmesan cheese, and egg.",
-        "Spread a thin layer of meat sauce in the bottom of a 9x13 inch baking dish. Layer with lasagna noodles, cheese mixture, and meat sauce. Repeat layers, ending with meat sauce. Sprinkle remaining mozzarella cheese on top.",
-        "Bake for 25 minutes, or until cheese is melted and bubbly. Let stand for 10 minutes before serving."
+        "Peel and grate the beets, cabbage, potatoes, and carrots. Finely chop the onion and mince the garlic.",
+        "In a large pot, heat the vegetable oil over medium heat. Add the onion and garlic, and sauté until fragrant and translucent.",
+        "Add the grated beets, cabbage, carrots, and potatoes to the pot. Stir in the tomato paste and cook for 5 minutes, allowing the flavors to meld together.",
+        "Pour in the beef or vegetable broth. Add the bay leaves, salt, and black pepper. Bring the soup to a boil, then reduce the heat to low and let it simmer for 1 hour, or until the vegetables are tender.",
+        "Stir in the white vinegar and fresh dill. Taste the soup and adjust the seasoning if needed.",
+        "Serve the borscht hot, topped with a dollop of sour cream and garnished with additional fresh dill."
       ]
     },
     {
       "id": 4,
-      "title": "Creamy Tomato Soup",
-      "author": "Sarah Johnson",
-      "country": "Greece",
-      "description": "A comforting and creamy tomato soup that's perfect for chilly days.",
-      "prep_time": "10 minutes",
-      "cook_time": "30 minutes",
-      "servings": 4,
+      "dishName": "Sauerkraut Soup",
+      "author": "Kristina Kask",
+      "country": "Estonia",
+      "description": "A comforting and flavorful soup made with sauerkraut, pork, and root vegetables.",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour 30 minutes",
+      "servings": 6,
       "ingredients": [
         {
-          "name": "butter",
-          "quantity": "4 tablespoons"
+          "name": "Sauerkraut",
+          "quantity": "500 grams"
         },
         {
-          "name": "onion",
-          "quantity": "1"
+          "name": "Pork shoulder",
+          "quantity": "400 grams, cubed"
         },
         {
-          "name": "garlic",
-          "quantity": "3 cloves"
+          "name": "Onion",
+          "quantity": "1, chopped"
         },
         {
-          "name": "canned tomatoes",
-          "quantity": "28 ounces"
+          "name": "Carrots",
+          "quantity": "2, sliced"
         },
         {
-          "name": "vegetable broth",
-          "quantity": "2 cups"
+          "name": "Potatoes",
+          "quantity": "3, peeled and diced"
         },
         {
-          "name": "sugar",
-          "quantity": "1 tablespoon"
+          "name": "Bay leaves",
+          "quantity": "2"
         },
         {
-          "name": "salt",
-          "quantity": "1 teaspoon"
+          "name": "Allspice berries",
+          "quantity": "4"
         },
         {
-          "name": "heavy cream",
-          "quantity": "1/2 cup"
+          "name": "Juniper berries",
+          "quantity": "4"
         },
         {
-          "name": "basil leaves",
-          "quantity": "1/4 cup"
+          "name": "Smoked bacon",
+          "quantity": "100 grams, chopped"
+        },
+        {
+          "name": "Beef or vegetable broth",
+          "quantity": "6 cups"
+        },
+        {
+          "name": "Fresh dill",
+          "quantity": "2 tablespoons, chopped"
+        },
+        {
+          "name": "Sour cream",
+          "quantity": "for serving"
+        },
+        {
+          "name": "Salt",
+          "quantity": "to taste"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": "to taste"
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": "2 tablespoons"
         }
       ],
       "steps": [
-        "Melt butter in a large saucepan over medium heat. Add onion and garlic and cook until softened.",
-        "Add canned tomatoes, vegetable broth, sugar, and salt. Bring to a boil and then reduce heat to low. Simmer for 20 minutes.",
-        "Using an immersion blender, puree the soup until smooth. (Alternatively, transfer the soup to a blender and puree until smooth. Be sure to vent the blender lid to prevent steam from building up.)",
-        "Stir in heavy cream and basil leaves. Heat until warm.",
-        "Serve hot with your favorite bread or crackers."
+        "In a large pot, heat the vegetable oil over medium heat. Add the chopped onion and sauté until translucent.",
+        "Add the chopped bacon and cubed pork shoulder to the pot. Cook until the pork is browned on all sides.",
+        "Add the sliced carrots and diced potatoes to the pot. Stir in the sauerkraut, bay leaves, allspice berries, and juniper berries.",
+        "Pour in the beef or vegetable broth. Bring the soup to a boil, then reduce the heat to low and let it simmer for 1 hour, or until the pork is tender and the flavors have melded together.",
+        "Remove the bay leaves, allspice berries, and juniper berries from the soup. Season with salt and black pepper to taste.",
+        "Serve the sauerkraut soup hot, garnished with fresh chopped dill and a dollop of sour cream.",
+        "Enjoy the comforting flavors of this traditional Estonian sauerkraut soup!"
       ]
     },
     {
       "id": 5,
-      "title": "Spaghetti Carbonara",
+      "dishName": "Spaghetti Carbonara",
       "author": "Marco Rossi",
       "country": "Italy",
       "description": "A classic Italian pasta dish made with bacon, eggs, and cheese.",
@@ -300,330 +374,64 @@
     },
     {
       "id": 6,
-      "title": "Beef Stroganoff",
-      "author": "John Doe",
-      "country": "Russia",
-      "description": "A classic Russian dish made with beef, mushrooms, and sour cream.",
-      "prep_time": "15 minutes",
-      "cook_time": "30 minutes",
-      "servings": 4,
-      "ingredients": [
-        {
-          "name": "beef tenderloin",
-          "quantity": "1 pound"
-        },
-        {
-          "name": "mushrooms",
-          "quantity": "8 ounces"
-        },
-        {
-          "name": "onion",
-          "quantity": "1"
-        },
-        {
-          "name": "garlic",
-          "quantity": "3 cloves"
-        },
-        {
-          "name": "beef broth",
-          "quantity": "1 cup"
-        },
-        {
-          "name": "sour cream",
-          "quantity": "1/2 cup"
-        },
-        {
-          "name": "flour",
-          "quantity": "2 tablespoons"
-        },
-        {
-          "name": "butter",
-          "quantity": "2 tablespoons"
-        },
-        {
-          "name": "egg noodles",
-          "quantity": "12 ounces"
-        }
-      ],
-      "steps": [
-        "Slice beef into thin strips.",
-        "In a large skillet, melt butter over medium heat. Add onion and garlic and cook until softened.",
-        "Add mushrooms to the skillet and cook until tender.",
-        "Remove mushrooms from skillet and set aside.",
-        "Add beef to the skillet and cook until browned.",
-        "Sprinkle flour over beef and stir to combine.",
-        "Add beef broth to the skillet and stir until sauce thickens.",
-        "Add mushrooms back to the skillet and stir to combine.",
-        "Remove skillet from heat and stir in sour cream.",
-        "Cook egg noodles according to package instructions. Drain and serve with beef stroganoff."
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Butternut Squash Soup",
-      "author": "Emily Johnson",
-      "country": "Finland",
-      "description": "A creamy and comforting soup made with roasted butternut squash and warming spices.",
-      "prep_time": "15 minutes",
-      "cook_time": "1 hour",
-      "servings": 6,
-      "ingredients": [
-        {
-          "name": "butternut squash",
-          "quantity": "1 large"
-        },
-        {
-          "name": "onion",
-          "quantity": "1"
-        },
-        {
-          "name": "garlic",
-          "quantity": "3 cloves"
-        },
-        {
-          "name": "vegetable broth",
-          "quantity": "4 cups"
-        },
-        {
-          "name": "heavy cream",
-          "quantity": "1/2 cup"
-        },
-        {
-          "name": "butter",
-          "quantity": "2 tablespoons"
-        },
-        {
-          "name": "cinnamon",
-          "quantity": "1/2 teaspoon"
-        },
-        {
-          "name": "nutmeg",
-          "quantity": "1/2 teaspoon"
-        },
-        {
-          "name": "salt",
-          "quantity": "to taste"
-        },
-        {
-          "name": "pepper",
-          "quantity": "to taste"
-        }
-      ],
-      "steps": [
-        "Preheat oven to 400 degrees F.",
-        "Cut butternut squash in half and remove seeds. Place on a baking sheet, cut side down.",
-        "Roast squash in the oven for 45-50 minutes, until tender.",
-        "While squash is roasting, chop onion and garlic.",
-        "In a large pot, melt butter over medium heat. Add onion and garlic and cook until softened.",
-        "Add roasted squash to the pot and stir to combine.",
-        "Add vegetable broth, cinnamon, nutmeg, salt, and pepper to the pot and stir to combine.",
-        "Bring soup to a simmer and cook for 10 minutes.",
-        "Use an immersion blender or transfer soup to a blender and blend until smooth.",
-        "Stir in heavy cream and cook for an additional 5 minutes.",
-        "Serve hot and enjoy!"
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Pesto Pasta",
-      "author": "Alex Brown",
-      "country": "Ukrain",
-      "description": "A simple and delicious pasta dish with fresh pesto sauce.",
-      "prep_time": "10 minutes",
+      "dishName": "Varenyky (Ukrainian Dumplings)",
+      "author": "Natalia Petrenko",
+      "country": "Ukraine",
+      "description": "Traditional Ukrainian dumplings filled with a variety of savory fillings.",
+      "prep_time": "45 minutes",
       "cook_time": "20 minutes",
       "servings": 4,
       "ingredients": [
         {
-          "name": "linguine",
-          "quantity": "12 ounces"
-        },
-        {
-          "name": "basil leaves",
+          "name": "All-purpose flour",
           "quantity": "2 cups"
         },
         {
-          "name": "garlic",
-          "quantity": "2 cloves"
-        },
-        {
-          "name": "pine nuts",
+          "name": "Water",
           "quantity": "1/2 cup"
         },
         {
-          "name": "parmesan cheese",
-          "quantity": "1/2 cup"
+          "name": "Salt",
+          "quantity": "1/2 teaspoon"
         },
         {
-          "name": "olive oil",
-          "quantity": "1/2 cup"
+          "name": "Potatoes",
+          "quantity": "3 medium, boiled and mashed"
         },
         {
-          "name": "salt",
-          "quantity": "to taste"
+          "name": "Onion",
+          "quantity": "1 medium, finely chopped"
         },
         {
-          "name": "pepper",
-          "quantity": "to taste"
-        }
-      ],
-      "steps": [
-        "Bring a large pot of salted water to a boil. Add linguine and cook according to package instructions until al dente.",
-        "While pasta is cooking, make the pesto sauce. In a food processor, combine basil, garlic, pine nuts, and parmesan cheese. Pulse until finely chopped.",
-        "With the food processor running, slowly pour in the olive oil until the mixture is smooth.",
-        "Season the pesto sauce with salt and pepper to taste.",
-        "Drain the cooked pasta and return it to the pot. Add the pesto sauce and toss to combine.",
-        "Serve hot and enjoy!"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Vegetarian Chili",
-      "author": "Sarah Johnson",
-      "country": "Finland",
-      "description": "A hearty and flavorful chili that's perfect for vegetarians or anyone looking to cut back on meat.",
-      "prep_time": "15 minutes",
-      "cook_time": "45 minutes",
-      "servings": 6,
-      "ingredients": [
-        {
-          "name": "olive oil",
+          "name": "Butter",
           "quantity": "2 tablespoons"
         },
         {
-          "name": "onion",
-          "quantity": "1, chopped"
+          "name": "Sour cream",
+          "quantity": "for serving"
         },
         {
-          "name": "bell pepper",
-          "quantity": "1, chopped"
-        },
-        {
-          "name": "garlic",
-          "quantity": "3 cloves, minced"
-        },
-        {
-          "name": "chili powder",
-          "quantity": "2 tablespoons"
-        },
-        {
-          "name": "cumin",
-          "quantity": "1 tablespoon"
-        },
-        {
-          "name": "paprika",
-          "quantity": "1 teaspoon"
-        },
-        {
-          "name": "red pepper flakes",
-          "quantity": "1/2 teaspoon"
-        },
-        {
-          "name": "black beans",
-          "quantity": "1 can, drained and rinsed"
-        },
-        {
-          "name": "kidney beans",
-          "quantity": "1 can, drained and rinsed"
-        },
-        {
-          "name": "diced tomatoes",
-          "quantity": "1 can"
-        },
-        {
-          "name": "tomato sauce",
-          "quantity": "1 can"
-        },
-        {
-          "name": "corn",
-          "quantity": "1 cup"
-        },
-        {
-          "name": "salt",
+          "name": "Salt",
           "quantity": "to taste"
         },
         {
-          "name": "pepper",
+          "name": "Black pepper",
           "quantity": "to taste"
         }
       ],
       "steps": [
-        "Heat olive oil in a large pot over medium heat. Add onion, bell pepper, and garlic. Cook until vegetables are tender, about 5 minutes.",
-        "Add chili powder, cumin, paprika, and red pepper flakes. Cook for 1 minute, stirring constantly.",
-        "Add black beans, kidney beans, diced tomatoes, tomato sauce, and corn. Stir to combine.",
-        "Bring mixture to a simmer and cook for 30 minutes, stirring occasionally.",
-        "Season with salt and pepper to taste.",
-        "Serve hot and enjoy!"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Blueberry Oatmeal Muffins",
-      "author": "Emily Brown",
-      "country": "Estonia",
-      "description": "Moist and delicious blueberry oatmeal muffins that are perfect for a quick breakfast or snack.",
-      "prep_time": "15 minutes",
-      "cook_time": "25 minutes",
-      "servings": 12,
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "quantity": "1 1/2 cups"
-        },
-        {
-          "name": "quick oats",
-          "quantity": "1 cup"
-        },
-        {
-          "name": "baking powder",
-          "quantity": "2 teaspoons"
-        },
-        {
-          "name": "baking soda",
-          "quantity": "1/2 teaspoon"
-        },
-        {
-          "name": "salt",
-          "quantity": "1/2 teaspoon"
-        },
-        {
-          "name": "cinnamon",
-          "quantity": "1 teaspoon"
-        },
-        {
-          "name": "eggs",
-          "quantity": "2"
-        },
-        {
-          "name": "brown sugar",
-          "quantity": "1/2 cup"
-        },
-        {
-          "name": "vegetable oil",
-          "quantity": "1/2 cup"
-        },
-        {
-          "name": "vanilla extract",
-          "quantity": "1 teaspoon"
-        },
-        {
-          "name": "buttermilk",
-          "quantity": "1 cup"
-        },
-        {
-          "name": "blueberries",
-          "quantity": "1 cup"
-        }
-      ],
-      "steps": [
-        "Preheat oven to 375°F. Line a muffin tin with paper liners.",
-        "In a large mixing bowl, whisk together flour, oats, baking powder, baking soda, salt, and cinnamon.",
-        "In a separate mixing bowl, whisk together eggs, brown sugar, vegetable oil, and vanilla extract. Add buttermilk and whisk until smooth.",
-        "Add wet ingredients to dry ingredients and stir until just combined.",
-        "Fold in blueberries.",
-        "Spoon batter into muffin cups, filling each about 2/3 full.",
-        "Bake for 20-25 minutes, until a toothpick inserted into the center of a muffin comes out clean.",
-        "Allow muffins to cool in the tin for 5 minutes before transferring them to a wire rack to cool completely.",
-        "Serve and enjoy!"
+        "In a large mixing bowl, combine the flour, water, and salt. Knead the dough until it becomes smooth and elastic.",
+        "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+        "Meanwhile, in a skillet, sauté the chopped onion in butter until golden brown.",
+        "In a separate bowl, mix the mashed potatoes with the sautéed onions. Season with salt and black pepper to taste.",
+        "On a lightly floured surface, roll out the dough to a thickness of about 1/8 inch.",
+        "Cut out circles from the rolled dough using a round cookie cutter or a glass.",
+        "Place a spoonful of the potato filling in the center of each dough circle.",
+        "Fold the dough over the filling to create a half-moon shape. Press the edges together to seal the dumplings.",
+        "Bring a large pot of salted water to a boil. Drop the dumplings into the boiling water and cook for about 5-7 minutes, or until they float to the surface.",
+        "Using a slotted spoon, remove the cooked dumplings from the water and place them on a serving dish.",
+        "Serve the varenyky hot, accompanied by sour cream.",
+        "Enjoy the delicious taste of these traditional Ukrainian dumplings!"
       ]
     }
   ]
