@@ -1,25 +1,40 @@
-.header {
+header {
   background-color: #333;
+  max-width: 100vw;
   height: 10vh;
   display: flex;
-  align-items: flex-start;
-  color: white;
+  align-items: center;
+  justify-content: center;
 }
 
-.header h1 {
-  margin-left: 1rem;
+.headerSection {
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: var(--main-color);
+  border-style: solid;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
 }
 
 .header li {
   display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
   margin: 1vw;
 }
-
-.header nav {
-  margin-left: 25rem;
+.header a {
+  text-decoration: none;
 }
 
 .header a {
   color: white;
-  font-weight: bold;
+}
+
+.headerSection h1 {
+  color: var(--main-color);
 }

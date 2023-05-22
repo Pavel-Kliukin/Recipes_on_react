@@ -1,16 +1,19 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = (props) => {
   return <header className="header">
-    <h1>It's time to cook!</h1>
-    <nav>
-      <ul>
-        <li>{props.home}</li>
-        <li>{props.recipes}</li>
-        <li>{props.add}</li>
-      </ul>
-    </nav>
+    <div className='headerSection'>
+    <NavLink to="/"><h1>Cook IT!</h1></NavLink>
+      <nav>
+        <ul>
+          <li>{props.home}</li>
+          <li>{props.recipes}</li>
+          <li>{props.add}</li>
+        </ul>
+      </nav>
+    </div>
   </header>
 }
 
