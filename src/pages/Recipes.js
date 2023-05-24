@@ -25,7 +25,7 @@ const Recipes = () => {
 
   return (
     <div className="Recipes">
-      <h2>Recipes page</h2>
+      <h2>Recipes of the world</h2>
       <div className="cards">
         {data.map(recipe => <RecipeCard 
           key = {recipe.id}

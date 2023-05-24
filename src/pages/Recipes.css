@@ -1,6 +1,6 @@
 .Recipes {
   background-color: #333;
-  height: 88vh;
+  min-height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

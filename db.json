@@ -433,6 +433,39 @@
         "Serve the varenyky hot, accompanied by sour cream.",
         "Enjoy the delicious taste of these traditional Ukrainian dumplings!"
       ]
+    },
+    {
+      "id": 7,
+      "dishName": "Kebab",
+      "author": "Ahmed",
+      "country": "Finland",
+      "description": "Pretty easy and fast food",
+      "prep_time": "2 min",
+      "cook_time": "15 min",
+      "servings": "2",
+      "ingredients": [
+        {
+          "name": "roasted beaf meat",
+          "quantity": "0.3 kg"
+        },
+        {
+          "name": "Lavash",
+          "quantity": "2 "
+        },
+        {
+          "name": "salad",
+          "quantity": "2"
+        },
+        {
+          "name": "tomato",
+          "quantity": "1"
+        },
+        {
+          "name": "corn",
+          "quantity": "50 gr"
+        }
+      ],
+      "steps": "Just cook it"
     }
   ]
 }

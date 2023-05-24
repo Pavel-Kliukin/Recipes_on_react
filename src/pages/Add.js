@@ -77,9 +77,9 @@ const Add = () => {
 
   return (
     <div className="Add">
-      <h1>Add recipes page</h1>
+      <h2>Share you recipe with the world!</h2>
       <form onSubmit={submitHandler}>
-        <div className="name">
+        <div className="name forms_element">
           <label htmlFor="dishName">Dish's name</label>
           <input
             type="text"
@@ -90,7 +90,7 @@ const Add = () => {
             required
           />
         </div>
-        <div className="author">
+        <div className="author forms_element">
           <label htmlFor="author">Author</label>
           <input
             type="text"
@@ -100,7 +100,7 @@ const Add = () => {
             onChange={fieldsHandler}
           />
         </div>
-        <div className="country">
+        <div className="country forms_element">
           <label htmlFor="country">Country</label>
           <select
             id="country"
@@ -113,7 +113,7 @@ const Add = () => {
             <option value="Estonia">Estonia</option>
           </select>
         </div>
-        <div className="description">
+        <div className="description forms_element">
           <label htmlFor="description">Description</label>
           <textarea
             id="description"
@@ -122,7 +122,7 @@ const Add = () => {
             onChange={fieldsHandler}
           ></textarea>
         </div>
-        <div className="prep-time">
+        <div className="prep-time forms_element">
           <label htmlFor="prep_time">Preparation Time</label>
           <input
             type="text"
@@ -132,7 +132,7 @@ const Add = () => {
             onChange={fieldsHandler}
           />
         </div>
-        <div className="cook-time">
+        <div className="cook-time forms_element">
           <label htmlFor="cook_time">Cooking Time</label>
           <input
             type="text"
@@ -142,7 +142,7 @@ const Add = () => {
             onChange={fieldsHandler}
           />
         </div>
-        <div className="servings">
+        <div className="servings forms_element">
           <label htmlFor="servings">Servings</label>
           <input
             type="text"
@@ -152,28 +152,36 @@ const Add = () => {
             onChange={fieldsHandler}
           />
         </div>
+        <p>Ingredients:</p>
         {formData.ingredients.map((item, id) => {
           return (
             <div key={id} className="ingredients">
-              <label htmlFor="ingredients">Ingredients</label>
-              <input
-                type="text"
-                id={id}
-                name="name"
-                onChange={ingredientsHandler}
-              />
-              <input
-                type="text"
-                id={id}
-                name="quantity"
-                onChange={ingredientsHandler}
-              />
+              <div className='ingredNameBox'>
+                <label htmlFor="name">name</label>
+                <input
+                  type="text"
+                  id={id}
+                  name="name"
+                  onChange={ingredientsHandler}
+                />
+              </div>
+              <div className='ingredQuantityBox'>  
+                <label htmlFor="quantity">quantity</label>
+                <input
+                  type="text"
+                  id={id}
+                  name="quantity"
+                  onChange={ingredientsHandler}
+                />
+              </div>
             </div>
           )
         })}
-        <button onClick={addIngredHandler}>Add ingredient</button>
+        <div className='addIngredButtonBox'>
+          <button id='addIngredButton' onClick={addIngredHandler}>Add one more</button>
+        </div>
 
-        <div className="steps">
+        <div className="steps forms_element">
           <label htmlFor="steps">Steps</label>
           <textarea
             id="steps"
@@ -183,7 +191,9 @@ const Add = () => {
             // required
           ></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <div className='submitButtonBox'>
+          <button id='submitButton' type="submit">Submit recipe</button>
+        </div>
       </form>
     </div>
   );
