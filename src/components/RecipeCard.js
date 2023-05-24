@@ -7,13 +7,14 @@ const RecipeCard = (props) => {
   const recipe = props.recipeData
 
   return (
-    <div className='recipeCard'>
-      <div className='recipeName'>{recipe.dishName}</div>
-      <PixabayImage 
-        imgRequest = {recipe.dishName}
-      />
-      <NavLink to={`/recipe/${recipe.id}`}>See more</NavLink>
-    </div>
+      <NavLink to={`/recipe/${recipe.id}`}>
+        <div className='recipeCard'>
+          <div className='recipeName'>{recipe.dishName}</div>
+          <PixabayImage 
+            imgRequest = {recipe.dishName}
+          />
+        </div>
+      </NavLink>
   );
 };
 

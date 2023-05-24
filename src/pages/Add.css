@@ -1,10 +1,5 @@
-:root {
-  --main-color: rgb(91, 234, 120);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+.Add {
+  background-color: #333;
+  height: 88vh;
+  color: white;
 }

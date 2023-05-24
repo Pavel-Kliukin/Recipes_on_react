@@ -1,11 +1,23 @@
 .Recipes {
+  background-color: #333;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.Recipes h2 {
+  color: white;
+  margin-top: 2rem;
+}
+
 .cards {
+  max-width: 1300px;
+  height: 100%;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
 }

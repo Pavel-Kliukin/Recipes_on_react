@@ -33,6 +33,7 @@
   border-width: 1px;
   border-left: 0;
   border-right: 0;
+  border-bottom: 0;
 }
 
 .cookingTime {
@@ -63,8 +64,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* position: relative; */
-  /* aspect-ratio: 390/200;  */
 }
 
 .linkBox h3 {

@@ -31,13 +31,19 @@ const PixabayImage = (props) => {
     fetchData(dishName);
   }, [dishName]);
 
+  const divStyle = {
+    backgroundImage: `url(${imageURL})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }
+
   return (
-    <div className='imgBox'>
-      {imageURL ? (
+    <div className='imgBox' style={divStyle}>
+      {/* {imageURL ? (
         <img className='recipeImg' src={imageURL} alt={dishName} />
       ) : (
         <p>No image...</p>
-      )}
+      )} */}
     </div>
   );
 };
