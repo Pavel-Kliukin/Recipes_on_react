@@ -60,6 +60,25 @@ const Recipe = () => {
                 <p className="itemText">{data.servings}</p>
               </div>
             </div>
+            <div className="ingredBox">
+              <p className="itemTitle">Ingredients:</p>
+              <div className="ingredBlock">
+                <div className="ingredNames">
+                  {data.ingredients.map(item => {
+                    return (
+                      <p>{item.name}:</p>
+                    )
+                  })}
+                </div>
+                <div className="ingredQuantities">
+                  {data.ingredients.map(item => {
+                    return (
+                      <p>{item.quantity}</p>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="rightSide">

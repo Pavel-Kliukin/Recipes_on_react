@@ -35,6 +35,10 @@
   align-items: flex-start;
 }
 
+.leftBlock .ingredBox {
+  margin-top: 2rem;
+}
+
 .recipePage .imgBox {
   border-radius: 5px;
   border-color: rgb(179, 176, 176);
@@ -56,6 +60,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.itemTitle {
   color: var(--main-color);
 }
 
@@ -65,9 +72,27 @@
   flex-direction: column;
 }
 
+.recipePage .ingredBox {
+  width: 100%;
+}
+
+.recipePage .ingredBlock {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.recipePage .ingredNames {
+  margin-left: 10px;
+}
+.recipePage .ingredQuantities {
+  margin-left: 1rem;
+}
+
 .rightSide {
   width: 500px;
   margin-left: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
 }
