@@ -9,7 +9,6 @@
 }
 
 .Add h2 {
-  color: white;
   margin-top: 2rem;
 }
 
@@ -97,6 +96,10 @@ form p {
   border-color: var(--main-color);
 }
 
+#addIngredButton:hover {
+  border-width: 2px;
+}
+
 .steps textarea {
   width: 350px;
   height: 6rem;
@@ -121,4 +124,7 @@ form p {
   border-style: solid;
   border-width: 1px;
   border-color: var(--main-color);
+}
+#submitButton:hover {
+  border-width: 2px;
 }

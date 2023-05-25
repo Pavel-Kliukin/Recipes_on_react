@@ -32,10 +32,46 @@ const Recipe = () => {
     return <p>Loading...</p>
   }
 
-  return <div className="recipePage">
-    <h1>Recipe with ID {data.id}</h1>
-    <div>{data.dishName}</div>
-  </div>
+  const imageURL='https://www.telegraph.co.uk/content/dam/food-and-drink/2015/12/16/turkey-xanthe_trans_NvBQzQNjv4BqpJliwavx4coWFCaEkEsb3kvxIt-lGGWCWqwLa_RXJU8.jpg?imwidth=1280'
+
+  const divStyle = {
+    backgroundImage: `url(${imageURL})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }
+
+  return (
+    <div className="recipePage">
+      <h2>{data.dishName}</h2>
+      <p id='author'>by {data.author}</p>
+      <div className="recipeBox">
+        <div className="leftSide">
+          <div className="leftBlock">
+            <div className='imgBox' style={divStyle}></div>
+            <div className="underImageBlock">
+              <div className="underImageTitles">
+                <p className="itemTitle">Preparation time:</p>
+                <p className="itemTitle">Cook time:</p>
+                <p className="itemTitle">Servings:</p>
+              </div>
+              <div className="underImageTexts">
+                <p className="itemText">{data.prep_time}</p>
+                <p className="itemText">{data.cook_time}</p>
+                <p className="itemText">{data.servings}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="rightSide">
+          <h3>Description:</h3>
+          <p id='description'>{data.description}</p>
+          <h3>Preparation:</h3>
+          <p>{data.steps}</p>
+        </div>
+      </div>
+    </div>
+  )
+    
 }
 
 export default Recipe

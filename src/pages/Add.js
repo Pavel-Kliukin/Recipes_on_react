@@ -163,6 +163,7 @@ const Add = () => {
                   id={id}
                   name="name"
                   onChange={ingredientsHandler}
+                  required
                 />
               </div>
               <div className='ingredQuantityBox'>  
@@ -188,7 +189,6 @@ const Add = () => {
             name="steps"
             value={formData.steps}
             onChange={fieldsHandler}
-            // required
           ></textarea>
         </div>
         <div className='submitButtonBox'>

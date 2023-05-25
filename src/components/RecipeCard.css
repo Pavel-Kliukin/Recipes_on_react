@@ -1,10 +1,6 @@
 .recipeCard {
   width: 17rem;
   height: 14rem;
-  /* border-radius: 5px;
-  border-color: rgb(179, 176, 176);
-  border-style: solid;
-  border-width: 1.5px; */
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -21,7 +17,7 @@
   color: var(--main-color);
 }
 
-.imgBox {
+.recipeCard .imgBox {
   border-radius: 5px;
   border-color: rgb(179, 176, 176);
   border-style: solid;
