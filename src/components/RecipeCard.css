@@ -1,6 +1,6 @@
 .recipeCard {
   width: 15rem;
-  height: 20rem;
+  height: 22rem;
   margin: 1rem;
   border-radius: 5px;
   border-color: rgb(179, 176, 176);
@@ -12,24 +12,31 @@
   align-items: center;
 }
 
+.recipeCard a {
+  width: 100%;
+  height: 55%;
+}
+
 .recipeCard .recipeImage {
   width: 100%;
-  height: 60%;
+  height: 100%;
   border-bottom: 2px solid rgb(179, 176, 176);
 }
 
 .recipeCard .recipeName {
-  margin-left: 1rem;
+  font-weight: bold;
   color: #333;
+  margin-left: 1rem;
   margin-top: 0.5rem;
 }
 
 .recipeCard:hover .recipeName {
-  color: var(--main-color);
+  color: black;
 }
 
 .recipeCard:hover {
   border-color: var(--main-color);
+  border-width: 3px;
 }
 
 .cardLowerPart {
@@ -37,9 +44,10 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   width: 100%;
-  height: 40%;
+  height: 45%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   text-decoration: none;
 }
 
@@ -55,5 +63,22 @@
 }
 
 .recipeAuthorFlag {
-  margin-left: 1rem;
+  font-size: small;
+  margin: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipeCard .recipeFlag {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(179, 176, 176);
+}
+
+.recipeCard .flagImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
