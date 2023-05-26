@@ -1,15 +1,26 @@
 .recipeCard {
-  width: 17rem;
-  height: 14rem;
+  width: 15rem;
+  height: 20rem;
   margin: 1rem;
+  border-radius: 5px;
+  border-color: rgb(179, 176, 176);
+  border-style: solid;
+  border-width: 1.5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.recipeName {
-  color: white;
+.recipeCard .recipeImage {
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid rgb(179, 176, 176);
+}
+
+.recipeCard .recipeName {
+  margin-left: 1rem;
+  color: #333;
   margin-top: 0.5rem;
 }
 
@@ -17,22 +28,32 @@
   color: var(--main-color);
 }
 
-.recipeCard .imgBox {
-  border-radius: 5px;
-  border-color: rgb(179, 176, 176);
-  border-style: solid;
-  border-width: 1.5px;
-  width: 100%;
-  height: 80%;
-  justify-content: center;
-}
-
-.recipeCard:hover .imgBox {
+.recipeCard:hover {
   border-color: var(--main-color);
 }
 
-.recipeImg {
-  max-width: 100%;
-  max-height: 100%;
-  justify-content: center;
+.cardLowerPart {
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.cardLowerPart a {
+
+}
+
+.recipeDescription {
+  margin-left: 1rem;
+  color: #333;
+  font-size: small;
+  text-decoration: none;
+}
+
+.recipeAuthorFlag {
+  margin-left: 1rem;
 }

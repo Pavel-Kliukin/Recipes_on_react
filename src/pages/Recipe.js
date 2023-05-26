@@ -66,14 +66,14 @@ const Recipe = () => {
                 <div className="ingredNames">
                   {data.ingredients.map(item => {
                     return (
-                      <p>{item.name}:</p>
+                      <p key={data.id}>{item.name}:</p>
                     )
                   })}
                 </div>
                 <div className="ingredQuantities">
                   {data.ingredients.map(item => {
                     return (
-                      <p>{item.quantity}</p>
+                      <p key={data.id}>{item.quantity}</p>
                     )
                   })}
                 </div>

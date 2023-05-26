@@ -38,13 +38,7 @@ const PixabayImage = (props) => {
   }
 
   return (
-    <div className='imgBox' style={divStyle}>
-      {/* {imageURL ? (
-        <img className='recipeImg' src={imageURL} alt={dishName} />
-      ) : (
-        <p>No image...</p>
-      )} */}
-    </div>
+    <div className='imgBox' style={divStyle}></div>
   );
 };
 
