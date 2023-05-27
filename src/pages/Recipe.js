@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 
 import './Recipe.css'
 
@@ -9,6 +9,10 @@ const Recipe = () => {
   const {id} = useParams(); // gets id from the url
   const [data, setData] = useState(false);
   const [isLoading, setIsLoading] = useState(true)
+  
+  //getting url for the flag image from RecipeCard.js via 'useLocation' hook and 'state'
+  const location = useLocation()
+  const flagUrl = location.state.flagUrl
 
   useEffect(() => { 
     setIsLoading(true);
@@ -32,17 +36,20 @@ const Recipe = () => {
     return <p>Loading...</p>
   }
 
-  const imageURL='https://www.telegraph.co.uk/content/dam/food-and-drink/2015/12/16/turkey-xanthe_trans_NvBQzQNjv4BqpJliwavx4coWFCaEkEsb3kvxIt-lGGWCWqwLa_RXJU8.jpg?imwidth=1280'
-
+  // This is for styling 'imgBox' div
+  // The photo of the recipe will be set as a background of 'imgBox' div
   const divStyle = {
-    backgroundImage: `url(${imageURL})`,
+    backgroundImage: `url(${data.imgUrl})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }
 
   return (
     <div className="recipePage">
-      <h2>{data.dishName}</h2>
+      <div className="nameAndFlag">
+        <h2>{data.dishName}</h2>
+        {flagUrl && <img className="flag" src={flagUrl} alt="Country flag"/>}
+      </div>
       <p id='author'>by {data.author}</p>
       <div className="recipeBox">
         <div className="leftSide">
@@ -64,16 +71,16 @@ const Recipe = () => {
               <p className="itemTitle">Ingredients:</p>
               <div className="ingredBlock">
                 <div className="ingredNames">
-                  {data.ingredients.map(item => {
+                  {data.ingredients.map((item, i) => {
                     return (
-                      <p key={data.id}>{item.name}:</p>
+                      <p key={i}>{item.name}:</p>
                     )
                   })}
                 </div>
                 <div className="ingredQuantities">
-                  {data.ingredients.map(item => {
+                  {data.ingredients.map((item, i) => {
                     return (
-                      <p key={data.id}>{item.quantity}</p>
+                      <p key={i}>{item.quantity}</p>
                     )
                   })}
                 </div>

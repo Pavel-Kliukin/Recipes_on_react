@@ -51,10 +51,6 @@
   text-decoration: none;
 }
 
-.cardLowerPart a {
-
-}
-
 .recipeDescription {
   margin-left: 1rem;
   color: #333;
@@ -67,6 +63,10 @@
   margin: 0 1rem 1rem 1rem;
   display: flex;
   justify-content: space-between;
+}
+
+.recipeCard .recipeAuthor {
+  color: rgb(179, 176, 176);
 }
 
 .recipeCard .recipeFlag {

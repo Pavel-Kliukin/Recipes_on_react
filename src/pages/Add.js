@@ -54,7 +54,7 @@ const Add = () => {
     //Adds recipe to the db.json file on json-server
     axios.post("http://localhost:3001/recipes", {
       ...formData
-      }).then((res) => console.log(res)).catch((error) => console.log(error));
+      }).catch((error) => console.log(error));
 
     // Reset the formData after submission
     setFormData({
@@ -111,6 +111,7 @@ const Add = () => {
             <option value="Finland">Finland</option>
             <option value="Russia">Russia</option>
             <option value="Estonia">Estonia</option>
+            <option value="Estonia">USA</option>
           </select>
         </div>
         <div className="description forms_element">

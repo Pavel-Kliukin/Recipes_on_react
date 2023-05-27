@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './RecipeCard.css';
 import { NavLink } from 'react-router-dom';
 import axios from 'axios';
-import PixabayImage from './PixabayImage';
+// import PixabayImage from './PixabayImage';
 
 const RecipeCard = (props) => {
   const recipe = props.recipeData
@@ -34,9 +34,12 @@ const RecipeCard = (props) => {
     fetchCountryFlag();
   }, [recipe.country]);
 
+  //This variable contains the flag url that I want to pass to Recipe.js
+  const DataForRecipeJsFile = {flagUrl : flagUrl}
+
   return (
     <div className='recipeCard'>
-      <NavLink to={`/recipe/${recipe.id}`}>
+      <NavLink to={`/recipe/${recipe.id}`} state = {DataForRecipeJsFile}>
         <div className='recipeImage' style={divStyle}></div>
       </NavLink>
       <div className='cardLowerPart'>
@@ -44,7 +47,7 @@ const RecipeCard = (props) => {
         <div className='recipeDescription'>{recipe.description}</div>
         <div className='recipeAuthorFlag'>
           <div className='recipeAuthor'>
-            {recipe.author}
+            by {recipe.author}
           </div>
           <div className='recipeFlag'>
             {flagUrl && <img className='flagImg' src={flagUrl} alt="Country Flag" />}

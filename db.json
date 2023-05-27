@@ -78,7 +78,7 @@
       "author": "Maria Papadopoulos",
       "country": "Greece",
       "description": "A classic Greek dish with layers of eggplant, meat, and béchamel sauce, baked to perfection.",
-      "imgUrl": "https://cdn.pixabay.com/photo/2022/12/14/15/31/fried-meatballs-7655627_1280.jpg",
+      "imgUrl": "https://cdn.pixabay.com/photo/2021/02/06/11/51/food-5987888_1280.jpg",
       "prep_time": "30 minutes",
       "cook_time": "1 hour 30 minutes",
       "servings": 6,
@@ -174,7 +174,7 @@
       "author": "Olga Ivanova",
       "country": "Russia",
       "description": "A traditional Russian beet soup with rich flavors and vibrant colors.",
-      "imgUrl": "https://cdn.pixabay.com/photo/2022/12/14/15/31/fried-meatballs-7655627_1280.jpg",
+      "imgUrl": "https://images.pexels.com/photos/8599742/pexels-photo-8599742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "prep_time": "30 minutes",
       "cook_time": "1 hour 30 minutes",
       "servings": 6,
@@ -255,7 +255,7 @@
       "author": "Kristina Kask",
       "country": "Estonia",
       "description": "A comforting and flavorful soup made with sauerkraut, pork, and root vegetables.",
-      "imgUrl": "https://cdn.pixabay.com/photo/2022/12/14/15/31/fried-meatballs-7655627_1280.jpg",
+      "imgUrl": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "prep_time": "15 minutes",
       "cook_time": "1 hour 30 minutes",
       "servings": 6,
@@ -337,7 +337,7 @@
       "author": "Marco Rossi",
       "country": "Italy",
       "description": "A classic Italian pasta dish made with bacon, eggs, and cheese.",
-      "imgUrl": "https://cdn.pixabay.com/photo/2022/12/14/15/31/fried-meatballs-7655627_1280.jpg",
+      "imgUrl": "https://cdn.pixabay.com/photo/2020/03/26/05/01/pasta-4969272_1280.jpg",
       "prep_time": "10 minutes",
       "cook_time": "20 minutes",
       "servings": 4,
@@ -383,7 +383,7 @@
       "author": "Natalia Petrenko",
       "country": "Ukraine",
       "description": "Traditional Ukrainian dumplings filled with a variety of savory fillings.",
-      "imgUrl": "https://cdn.pixabay.com/photo/2022/12/14/15/31/fried-meatballs-7655627_1280.jpg",
+      "imgUrl": "https://images.pexels.com/photos/8601692/pexels-photo-8601692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "prep_time": "45 minutes",
       "cook_time": "20 minutes",
       "servings": 4,
@@ -442,37 +442,32 @@
     },
     {
       "id": 7,
-      "dishName": "Kebab",
-      "author": "Ahmed",
-      "country": "Finland",
-      "description": "Pretty easy and fast food",
-      "imgUrl": "https://cdn.pixabay.com/photo/2022/12/14/15/31/fried-meatballs-7655627_1280.jpg",
-      "prep_time": "2 min",
-      "cook_time": "15 min",
-      "servings": "2",
+      "dishName": "Hot dog",
+      "author": "Pavel Kliukin",
+      "country": "Estonia",
+      "description": "Very easy and fast meal",
+      "prep_time": "",
+      "cook_time": "",
+      "servings": "1",
       "ingredients": [
         {
-          "name": "roasted beaf meat",
-          "quantity": "0.3 kg"
-        },
-        {
-          "name": "Lavash",
-          "quantity": "2 "
-        },
-        {
-          "name": "salad",
-          "quantity": "2"
-        },
-        {
-          "name": "tomato",
+          "name": "bread",
           "quantity": "1"
         },
         {
-          "name": "corn",
-          "quantity": "50 gr"
+          "name": "sausage",
+          "quantity": "1"
+        },
+        {
+          "name": "fried onion",
+          "quantity": "20 gr"
+        },
+        {
+          "name": "ketchup",
+          "quantity": "10 gr"
         }
       ],
-      "steps": "Just cook it"
+      "steps": "Separate the bread into two pieces\nPut the sausage in it\nPut the onion inside\nAdd ketchup"
     }
   ]
 }
