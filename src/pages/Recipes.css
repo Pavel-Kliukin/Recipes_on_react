@@ -6,9 +6,35 @@
   align-items: center;
 }
 
-.Recipes h2 {
+.titleAndSearchBox {
+  width: 1300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleAndSearch {
   color: white;
   margin-top: 2rem;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchByDishName {
+  display: flex;
+  align-items: center;
+}
+
+.searchByDishName label {
+  margin-right: 1rem;
+  color: rgb(179, 176, 176);
+}
+
+.searchByDishName input {
+  width: 200px;
+  height: 1.7rem;
+  padding-left: 0.5rem;
+  border-radius: 5px;
 }
 
 .cards {

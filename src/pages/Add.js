@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import './Add.css';
+import Modal from '../components/Modal';
 
 const Add = () => {
   const [formData, setFormData] = useState({
@@ -47,7 +48,7 @@ const Add = () => {
     const newIngredArray = [...formData.ingredients, newIngred]
     setFormData({...formData, ingredients: newIngredArray})
   }
-
+  // This handler is for submit button
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -55,6 +56,9 @@ const Add = () => {
     axios.post("http://localhost:3001/recipes", {
       ...formData
       }).catch((error) => console.log(error));
+    
+    // Make Modal window visible
+    setModalShow(true)
 
     // Reset the formData after submission
     setFormData({
@@ -74,6 +78,14 @@ const Add = () => {
       steps: ''
     });
   };
+
+  // Hook and Handler for Modal component
+  const [modalShow, setModalShow] = useState(false)
+
+  // Hide Modal window after close button pressed
+  const modalButtonHandler = () => {
+    setModalShow(false)
+  }
 
   return (
     <div className="Add">
@@ -100,6 +112,16 @@ const Add = () => {
             onChange={fieldsHandler}
           />
         </div>
+        <div className="imgURL forms_element">
+          <label htmlFor="imgURL">Image URL</label>
+          <input
+            type="text"
+            id="imgUrl"
+            name="imgUrl"
+            value={formData.imgUrl}
+            onChange={fieldsHandler}
+          />
+        </div>
         <div className="country forms_element">
           <label htmlFor="country">Country</label>
           <select
@@ -111,7 +133,7 @@ const Add = () => {
             <option value="Finland">Finland</option>
             <option value="Russia">Russia</option>
             <option value="Estonia">Estonia</option>
-            <option value="Estonia">USA</option>
+            <option value="USA">USA</option>
           </select>
         </div>
         <div className="description forms_element">
@@ -196,6 +218,7 @@ const Add = () => {
           <button id='submitButton' type="submit">Submit recipe</button>
         </div>
       </form>
+      {modalShow && <Modal btnClicked={modalButtonHandler}/>}
     </div>
   );
   

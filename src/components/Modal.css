@@ -1,0 +1,52 @@
+
+.Add .overlay {
+  /* background-color: #333; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.9; */
+}
+
+.Add .modal {
+  background-color: #333;
+  /* opacity: 99%; */
+  color: white;
+  height: 300px;
+  width: 500px;
+  padding: 2rem;
+  border-radius: 5px;
+  border: solid var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*so the button could position itself*/
+  ;
+}
+
+.modal h2 {
+  font-weight: lighter;
+}
+
+.addedImg {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.modal .btn {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: none;
+  top: 0.5rem;
+  right: 0.5rem;
+}
