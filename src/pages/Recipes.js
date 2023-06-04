@@ -36,6 +36,7 @@ const Recipes = () => {
             <label htmlFor="search">Search by dish name</label>
                 <input
                   type="text"
+                  id="search"
                   name="search"
                   onChange={searchHandler}
                 />

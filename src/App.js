@@ -13,9 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <Header
-        home={<NavLink to="/">Home</NavLink>}
-        recipes={<NavLink to="/recipes">Recipes</NavLink>}
-        add={<NavLink to="/add">Add new recipe</NavLink>}
+        home={<NavLink to="/" aria-label="Home">Home</NavLink>}
+        recipes={<NavLink to="/recipes" aria-label="Recipes">Recipes</NavLink>}
+        add={<NavLink to="/add" aria-label="Add new recipe">Add new recipe</NavLink>}
       />
         <Routes>
           <Route path="/" element={

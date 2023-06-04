@@ -5,7 +5,7 @@ import './Header.css'
 const Header = (props) => {
   return <header className="header">
     <div className='headerSection'>
-    <NavLink to="/"><h1>Cook IT!</h1></NavLink>
+    <NavLink to="/" aria-label="Home"><h1>Cook IT!</h1></NavLink>
       <nav>
         <ul>
           <li>{props.home}</li>

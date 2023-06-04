@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import './Add.css';
 import Modal from '../components/Modal';
@@ -10,6 +10,7 @@ const Add = () => {
     author: '',
     country: 'Finland',
     description: '',
+    imgUrl: '',
     prep_time: '',
     cook_time:'',
     servings: '',
@@ -36,7 +37,7 @@ const Add = () => {
     setFormData({...formData, ingredients: ingredArray})
   }
 
-  //This handler adds new field for a new ingredient
+  // This handler adds new field for a new ingredient
   const addIngredHandler = (e) => {
     e.preventDefault()
 
@@ -52,12 +53,18 @@ const Add = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    //Adds recipe to the db.json file on json-server
-    axios.post("http://localhost:3001/recipes", {
-      ...formData
+    // Adds recipe to the db.json file on json-server
+    if (formData.imgUrl === '') { // If user didn't set the img url, the default "no image" picture will be set:
+      axios.post("http://localhost:3001/recipes", {
+        ...formData, imgUrl:"https://drive.bc.fi/portal/s/012324799202027485390.png"
       }).catch((error) => console.log(error));
-    
-    // Make Modal window visible
+    } else {
+      axios.post("http://localhost:3001/recipes", {
+        ...formData
+      }).catch((error) => console.log(error));
+    }
+
+    // Makes Modal window visible
     setModalShow(true)
 
     // Reset the formData after submission
@@ -66,6 +73,7 @@ const Add = () => {
       author: '',
       country: 'Finland',
       description: '',
+      imgUrl: '',
       prep_time: '',
       cook_time:'',
       servings: '',
@@ -86,6 +94,26 @@ const Add = () => {
   const modalButtonHandler = () => {
     setModalShow(false)
   }
+
+  // Getting array of countries names from restcountries.com
+  const [countriesNames, setCountriesNames] = useState([])
+
+  useEffect(() => {
+    const fetchCountriesNames = async () => {
+      try {
+        const response = await axios.get(
+          'https://restcountries.com/v3.1/all'
+        );
+        const countriesNames = response.data.map(country => country.name.common);
+        setCountriesNames(countriesNames.sort())
+      } catch (error) {
+        console.log('Error from restcountries.com: ', error);
+        return[] // Return an empty array in case of an error
+      }
+    };
+
+    fetchCountriesNames()
+  }, [countriesNames]);
 
   return (
     <div className="Add">
@@ -130,10 +158,9 @@ const Add = () => {
             value={formData.country}
             onChange={fieldsHandler}
           >
-            <option value="Finland">Finland</option>
-            <option value="Russia">Russia</option>
-            <option value="Estonia">Estonia</option>
-            <option value="USA">USA</option>
+            {countriesNames.map(country => 
+              <option key={country} value={country}>{country}</option>
+            )}
           </select>
         </div>
         <div className="description forms_element">

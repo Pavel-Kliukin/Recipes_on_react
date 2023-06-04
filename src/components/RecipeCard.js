@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './RecipeCard.css';
 import { NavLink } from 'react-router-dom';
 import axios from 'axios';
-// import PixabayImage from './PixabayImage';
 
 const RecipeCard = (props) => {
   const recipe = props.recipeData
@@ -27,7 +26,7 @@ const RecipeCard = (props) => {
         const flagUrl = response.data[0].flags.svg;
         setFlagUrl(flagUrl);
       } catch (error) {
-        console.log(error);
+        console.log('Error from restcountries.com: ', error);
       }
     };
 
@@ -39,7 +38,7 @@ const RecipeCard = (props) => {
 
   return (
     <div className='recipeCard'>
-      <NavLink to={`/recipe/${recipe.id}`} state = {DataForRecipeJsFile}>
+      <NavLink to={`/recipe/${recipe.id}`} aria-label={`${recipe.dishName}`} state = {DataForRecipeJsFile}>
         <div className='recipeImage' style={divStyle}></div>
       </NavLink>
       <div className='cardLowerPart'>
@@ -59,7 +58,3 @@ const RecipeCard = (props) => {
 };
 
 export default RecipeCard;
-
-{/* <PixabayImage 
-imgRequest = {recipe.dishName}
-/> */}
