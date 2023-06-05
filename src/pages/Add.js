@@ -120,7 +120,7 @@ const Add = () => {
       <h2>Share you recipe with the world!</h2>
       <form onSubmit={submitHandler}>
         <div className="name forms_element">
-          <label htmlFor="dishName">Dish's name</label>
+          <label htmlFor="dishName">Dish&apos;s name</label>
           <input
             type="text"
             id="dishName"

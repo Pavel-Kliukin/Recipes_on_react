@@ -12,7 +12,7 @@ const Home = () => {
         </video>
       </div>
       <div className='lowerBox'>
-        <p className='cookingTime'>It's cooking time!</p>
+        <p className='cookingTime'>It&apos;s cooking time!</p>
         <div className='linksBlock'>
           <div className='linkBox'>
             <div>
