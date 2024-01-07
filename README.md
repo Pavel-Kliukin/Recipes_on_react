@@ -1,5 +1,5 @@
 # Recipe App on React
-### This app is a part of a "Full stack web developer" program in the Business College of Helsinki
+### This app is a part of a "Full stack web developer" program at Business College Helsinki
 It's made on React and uses fake json-server and [restcountries API](https://restcountries.com)
 
 https://github.com/Pavel-Kliukin/Recipes_on_react/assets/98514950/0e391374-af25-4883-9f4d-7b4409de27d8
